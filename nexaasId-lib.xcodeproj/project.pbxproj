@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		4AC95E8721935EC20094699B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95E8621935EC20094699B /* AppDelegate.swift */; };
-		4AC95E8921935EC20094699B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95E8821935EC20094699B /* ViewController.swift */; };
-		4AC95E8C21935EC20094699B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC95E8A21935EC20094699B /* Main.storyboard */; };
-		4AC95E8E21935EC30094699B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC95E8D21935EC30094699B /* Assets.xcassets */; };
-		4AC95E9121935EC30094699B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC95E8F21935EC30094699B /* LaunchScreen.storyboard */; };
+		4AC95E9C21935F300094699B /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95E9A21935F300094699B /* Singleton.swift */; };
+		4AC95E9D21935F300094699B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95E9B21935F300094699B /* User.swift */; };
+		4AC95EA221935F380094699B /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95E9E21935F380094699B /* Headers.swift */; };
+		4AC95EA321935F380094699B /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95E9F21935F380094699B /* Url.swift */; };
+		4AC95EA421935F380094699B /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95EA021935F380094699B /* Core.swift */; };
+		4AC95EA521935F380094699B /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95EA121935F380094699B /* Authentication.swift */; };
+		4AC95EA721935F400094699B /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95EA621935F400094699B /* OAuthSwift.swift */; };
+		F6733466C817EFBFFE35A7D7 /* Pods_nexaasId_lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D309B8BE7911C93B38D8309 /* Pods_nexaasId_lib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D309B8BE7911C93B38D8309 /* Pods_nexaasId_lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nexaasId_lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC95E8321935EC20094699B /* nexaasId-lib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nexaasId-lib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC95E8621935EC20094699B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AC95E8821935EC20094699B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4AC95E8B21935EC20094699B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AC95E8D21935EC30094699B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AC95E9021935EC30094699B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AC95E9221935EC30094699B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC95E9A21935F300094699B /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		4AC95E9B21935F300094699B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4AC95E9E21935F380094699B /* Headers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		4AC95E9F21935F380094699B /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		4AC95EA021935F380094699B /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		4AC95EA121935F380094699B /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		4AC95EA621935F400094699B /* OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwift.swift; sourceTree = "<group>"; };
+		A7D7F5C0C0CC7D9FCE7C45A9 /* Pods-nexaasId-lib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexaasId-lib.release.xcconfig"; path = "Pods/Target Support Files/Pods-nexaasId-lib/Pods-nexaasId-lib.release.xcconfig"; sourceTree = "<group>"; };
+		F9F97EDC6224F5C7A501EF63 /* Pods-nexaasId-lib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nexaasId-lib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nexaasId-lib/Pods-nexaasId-lib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6733466C817EFBFFE35A7D7 /* Pods_nexaasId_lib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				4AC95E8521935EC20094699B /* nexaasId-lib */,
 				4AC95E8421935EC20094699B /* Products */,
+				96B9C5C7EDFA04218FF47752 /* Pods */,
+				A4FFC3AB0E4BDF170E974AA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,57 @@
 			isa = PBXGroup;
 			children = (
 				4AC95E8621935EC20094699B /* AppDelegate.swift */,
-				4AC95E8821935EC20094699B /* ViewController.swift */,
-				4AC95E8A21935EC20094699B /* Main.storyboard */,
-				4AC95E8D21935EC30094699B /* Assets.xcassets */,
-				4AC95E8F21935EC30094699B /* LaunchScreen.storyboard */,
 				4AC95E9221935EC30094699B /* Info.plist */,
+				4AC95EA821935F440094699B /* Nexaas-id-lib */,
 			);
 			path = "nexaasId-lib";
+			sourceTree = "<group>";
+		};
+		4AC95EA821935F440094699B /* Nexaas-id-lib */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95EA921935F4F0094699B /* Model */,
+				4AC95EAA21935F590094699B /* Utils */,
+				4AC95EA621935F400094699B /* OAuthSwift.swift */,
+			);
+			path = "Nexaas-id-lib";
+			sourceTree = "<group>";
+		};
+		4AC95EA921935F4F0094699B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95E9A21935F300094699B /* Singleton.swift */,
+				4AC95E9B21935F300094699B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AC95EAA21935F590094699B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95EA121935F380094699B /* Authentication.swift */,
+				4AC95EA021935F380094699B /* Core.swift */,
+				4AC95E9E21935F380094699B /* Headers.swift */,
+				4AC95E9F21935F380094699B /* Url.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		96B9C5C7EDFA04218FF47752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9F97EDC6224F5C7A501EF63 /* Pods-nexaasId-lib.debug.xcconfig */,
+				A7D7F5C0C0CC7D9FCE7C45A9 /* Pods-nexaasId-lib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4FFC3AB0E4BDF170E974AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D309B8BE7911C93B38D8309 /* Pods_nexaasId_lib.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AC95E9521935EC30094699B /* Build configuration list for PBXNativeTarget "nexaasId-lib" */;
 			buildPhases = (
+				F12F8EDA11E19C7FE93DCB9C /* [CP] Check Pods Manifest.lock */,
 				4AC95E7F21935EC20094699B /* Sources */,
 				4AC95E8021935EC20094699B /* Frameworks */,
 				4AC95E8121935EC20094699B /* Resources */,
+				059C29381DEC3C533D70F307 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +181,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC95E9121935EC30094699B /* LaunchScreen.storyboard in Resources */,
-				4AC95E8E21935EC30094699B /* Assets.xcassets in Resources */,
-				4AC95E8C21935EC20094699B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		059C29381DEC3C533D70F307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nexaasId-lib/Pods-nexaasId-lib-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nexaasId-lib/Pods-nexaasId-lib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12F8EDA11E19C7FE93DCB9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nexaasId-lib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AC95E7F21935EC20094699B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC95E8921935EC20094699B /* ViewController.swift in Sources */,
+				4AC95EA521935F380094699B /* Authentication.swift in Sources */,
+				4AC95EA721935F400094699B /* OAuthSwift.swift in Sources */,
+				4AC95EA421935F380094699B /* Core.swift in Sources */,
+				4AC95EA221935F380094699B /* Headers.swift in Sources */,
 				4AC95E8721935EC20094699B /* AppDelegate.swift in Sources */,
+				4AC95E9C21935F300094699B /* Singleton.swift in Sources */,
+				4AC95E9D21935F300094699B /* User.swift in Sources */,
+				4AC95EA321935F380094699B /* Url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4AC95E8A21935EC20094699B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AC95E8B21935EC20094699B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4AC95E8F21935EC30094699B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AC95E9021935EC30094699B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4AC95E9321935EC30094699B /* Debug */ = {
@@ -280,6 +374,7 @@
 		};
 		4AC95E9621935EC30094699B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F97EDC6224F5C7A501EF63 /* Pods-nexaasId-lib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +392,7 @@
 		};
 		4AC95E9721935EC30094699B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D7F5C0C0CC7D9FCE7C45A9 /* Pods-nexaasId-lib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
