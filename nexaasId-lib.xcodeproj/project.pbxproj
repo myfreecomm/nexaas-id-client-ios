@@ -77,9 +77,14 @@
 		4AC95EA821935F440094699B /* Nexaas-id-lib */ = {
 			isa = PBXGroup;
 			children = (
+				4AC95E9A21935F300094699B /* Singleton.swift */,
+				4AC95E9B21935F300094699B /* User.swift */,
+				4AC95EA121935F380094699B /* Authentication.swift */,
+				4AC95EA021935F380094699B /* Core.swift */,
+				4AC95E9E21935F380094699B /* Headers.swift */,
+				4AC95EA621935F400094699B /* OAuthSwift.swift */,
 				4AC95EA921935F4F0094699B /* Model */,
 				4AC95EAA21935F590094699B /* Utils */,
-				4AC95EA621935F400094699B /* OAuthSwift.swift */,
 			);
 			path = "Nexaas-id-lib";
 			sourceTree = "<group>";
@@ -87,8 +92,6 @@
 		4AC95EA921935F4F0094699B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4AC95E9A21935F300094699B /* Singleton.swift */,
-				4AC95E9B21935F300094699B /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,9 +99,6 @@
 		4AC95EAA21935F590094699B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				4AC95EA121935F380094699B /* Authentication.swift */,
-				4AC95EA021935F380094699B /* Core.swift */,
-				4AC95E9E21935F380094699B /* Headers.swift */,
 				4AC95E9F21935F380094699B /* Url.swift */,
 			);
 			path = Utils;

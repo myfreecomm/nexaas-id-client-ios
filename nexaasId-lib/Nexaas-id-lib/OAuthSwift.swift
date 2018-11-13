@@ -26,24 +26,20 @@ public class OAuth2 {
         let state = generateState(withLength: 20)
         
         _ = oauthswift.authorize(
-            withCallbackURL: URL(string: "")!,
+            withCallbackURL: URL(string: "com.nexaasId://callback/login")!,
             scope: "profile", state:state,
             success: { credential, response, parameters in
                 
-                Singleton.accessToken(accessToken: credential.oauthToken)
-                Core.getUser(accessToken: credential.oauthToken, completion: { (userResponse, statusCode) in
+                Singleton.token(accessToken: credential.oauthToken)
+                
+                
+                if let token = parameters["api_token"] as? String {
                     
-                    if statusCode == 200 {
-                        
-                        Singleton.user(user: userResponse!)
-                        
-                    }else{
-                        
-                        print("Status code: \(String(describing: statusCode))")
-                        
-                    }
-                })
-            },
+                    Singleton.accessToken(accessToken: token)
+                    
+                }
+                
+        },
             failure: { error in
                 
                 print(error.localizedDescription)
