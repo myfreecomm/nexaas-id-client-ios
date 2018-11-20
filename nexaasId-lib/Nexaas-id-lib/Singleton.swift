@@ -12,6 +12,7 @@ import Foundation
     
     private static let ACCESS_TOKEN = "api_token"
     private static let TOKEN = "access_token"
+    private static let REFRESH_TOKEN = "refresh_token"
     private static let USER = "user"
     
     @objc static func accessToken() -> String? {
@@ -22,6 +23,16 @@ import Foundation
     @objc static func accessToken(accessToken: String) {
         let defaults = UserDefaults.standard
         defaults.set(accessToken, forKey: ACCESS_TOKEN)
+    }
+    
+    @objc static func refreshToken() -> String? {
+        let defaults = UserDefaults.standard
+        return defaults.string(forKey: REFRESH_TOKEN)
+    }
+    
+    @objc static func refreshToken(refreshToken: String) {
+        let defaults = UserDefaults.standard
+        defaults.set(refreshToken, forKey: REFRESH_TOKEN)
     }
     
     @objc static func token() -> String? {
@@ -39,6 +50,7 @@ import Foundation
         defaults.removeObject(forKey: ACCESS_TOKEN)
         defaults.removeObject(forKey: USER)
         defaults.removeObject(forKey: TOKEN)
+        defaults.removeObject(forKey: REFRESH_TOKEN)
         
     }
     

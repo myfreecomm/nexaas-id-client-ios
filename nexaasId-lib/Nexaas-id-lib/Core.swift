@@ -46,7 +46,24 @@ class Core: NSObject {
 //        }
 //        task?.resume()
 //    }
-//    
+//
+    
+    
+    static func renewToken(refreshToken: String,completion: @escaping (_ error: Int?, OAuthResponse?) -> ()) {
+        let url = Url.signin()
+        let params = ["client_id": Authentication.CLIENT_ID, "client_secret": Authentication.CLIENT_SECRET, "redirect_uri": "com.nexaasId://callback/login", "grant_type": "refresh_token", "refresh_token": Singleton.refreshToken() ?? ""] as [String:Any]
+        
+        
+        Alamofire.request(url, method: .post, parameters: params).responseDecodableObject(decoder: JSONDecoder()) { (response: DataResponse<OAuthResponse>) in
+            
+            let repo = response.result.value
+            let error = response.response?.statusCode
+            
+            
+            completion(error,repo)
+            
+        }
+    }
     
 }
 

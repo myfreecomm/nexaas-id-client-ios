@@ -10,17 +10,17 @@
 import Foundation
 
 public class Headers {
-    //
-    //    + (AFHTTPSessionManager *)baseRequestManager {
-    //
-    //    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    //    manager.requestSerializer = [AFJSONRequestSerializer serializer];
-    //    [manager.requestSerializer setValue:[NSString stringWithFormat:@"Bearer %@", Singleton.token] forHTTPHeaderField:@"Authorization"];
-    //
-    //    [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    //
-    //    return manager;
-    //    }
+//    
+//        + (AFHTTPSessionManager *)baseRequestManager {
+//    
+//        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+//        manager.requestSerializer = [AFJSONRequestSerializer serializer];
+//        [manager.requestSerializer setValue:[NSString stringWithFormat:@"Bearer %@", Singleton.token] forHTTPHeaderField:@"Authorization"];
+//    
+//        [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    
+//        return manager;
+//        }
     
     
 }
